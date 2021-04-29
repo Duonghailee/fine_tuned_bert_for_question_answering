@@ -1,0 +1,10 @@
+what is your name?
+what do you do?
+what are your skills?
+How old are you?
+Where do you live?
+Where do you study?
+what do you study?
+what are you keen on?
+How do you see yourself in the future?
+What is your goal?
