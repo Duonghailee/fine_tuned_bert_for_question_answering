@@ -1,4 +1,4 @@
-from transformers import BertForQuestionAnswering, AutoTokenizer, pipeline, AutoModelForCausalLM, AutoModelForQuestionAnswering
+from transformers import AutoTokenizer, pipeline, AutoModelForQuestionAnswering
 from datasets import load_dataset
 
 with open('questions.txt', 'r') as f:

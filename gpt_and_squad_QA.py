@@ -1,10 +1,10 @@
-from transformers import BertForQuestionAnswering, AutoTokenizer, pipeline, AutoModelForCausalLM
+from transformers import AutoTokenizer, pipeline, AutoModelForCausalLM
 from datasets import load_dataset
 
 
 modelname = 'distilbert-base-uncased-distilled-squad'
 
-model = BertForQuestionAnswering.from_pretrained(modelname)
+model = AutoModelForQuestionAnswering.from_pretrained(modelname)
 tokenizer = AutoTokenizer.from_pretrained(modelname)
 
 nlp = pipeline('question-answering', model=model, tokenizer=tokenizer)
